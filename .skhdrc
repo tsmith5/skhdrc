@@ -103,7 +103,7 @@
 
 # open terminal, blazingly fast compared to iTerm/Hyper
 #cmd - return : /Applications/Kitty.app/Contents/MacOS/kitty --single-instance -d ~
-cmd - a : /Users/travissmith/iterm
+#cmd - a : /Users/travissmith/iterm
 
 # open qutebrowser
 cmd + shift - return : ~/Scripts/qtb.sh
@@ -202,6 +202,8 @@ ctrl + alt - c  : chunkc tiling::monitor -f next
 ctrl + alt - 1  : chunkc tiling::monitor -f 1
 ctrl + alt - 2  : chunkc tiling::monitor -f 2
 ctrl + alt - 3  : chunkc tiling::monitor -f 3
+ctrl + alt - 4  : chunkc tiling::monitor -f 4
+ctrl + alt - 5  : chunkc tiling::monitor -f 5
 
 # send window to monitor and follow focus
 ctrl + cmd - z  : chunkc tiling::window --send-to-monitor prev; chunkc tiling::monitor -f prev
@@ -209,6 +211,8 @@ ctrl + cmd - c  : chunkc tiling::window --send-to-monitor next; chunkc tiling::m
 ctrl + cmd - 1  : chunkc tiling::window --send-to-monitor 1; chunkc tiling::monitor -f 1
 ctrl + cmd - 2  : chunkc tiling::window --send-to-monitor 2; chunkc tiling::monitor -f 2
 ctrl + cmd - 3  : chunkc tiling::window --send-to-monitor 3; chunkc tiling::monitor -f 3
+ctrl + cmd - 4  : chunkc tiling::window --send-to-monitor 4; chunkc tiling::monitor -f 4
+ctrl + cmd - 5  : chunkc tiling::window --send-to-monitor 5; chunkc tiling::monitor -f 5
 
 # increase region size
 shift + alt - a : chunkc tiling::window --use-temporary-ratio 0.1 --adjust-window-edge west
